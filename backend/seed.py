@@ -16,14 +16,14 @@ SERVICES = [
 ]
 
 CLIENTS = [
-    {"first_name": "Naomi", "last_name": "Chen", "email": "naomi.chen@email.com", "phone": "239-555-0101"},
-    {"first_name": "Sofia", "last_name": "Reyes", "email": "sofia.reyes@email.com", "phone": "239-555-0102"},
-    {"first_name": "Aaliyah", "last_name": "Washington", "email": "aaliyah.w@email.com", "phone": "239-555-0103"},
-    {"first_name": "Priya", "last_name": "Sharma", "email": "priya.sharma@email.com", "phone": "239-555-0104"},
-    {"first_name": "Zoe", "last_name": "Kim", "email": "zoe.kim@email.com", "phone": "239-555-0105"},
-    {"first_name": "Isabelle", "last_name": "Martin", "email": "isabelle.m@email.com", "phone": "239-555-0106"},
-    {"first_name": "Maya", "last_name": "Thompson", "email": "maya.t@email.com", "phone": "239-555-0107"},
-    {"first_name": "Aria", "last_name": "Patel", "email": "aria.patel@email.com", "phone": "239-555-0108"},
+    {"first_name": "Naomi", "last_name": "Chen", "email": "", "phone": ""},
+    {"first_name": "Sofia", "last_name": "Reyes", "email": "", "phone": ""},
+    {"first_name": "Aaliyah", "last_name": "Washington", "email": "", "phone": ""},
+    {"first_name": "Priya", "last_name": "Sharma", "email": "", "phone": ""},
+    {"first_name": "Zoe", "last_name": "Kim", "email": "", "phone": ""},
+    {"first_name": "Isabelle", "last_name": "Martin", "email": "", "phone": ""},
+    {"first_name": "Maya", "last_name": "Thompson", "email": "", "phone": ""},
+    {"first_name": "Aria", "last_name": "Patel", "email": "", "phone": ""},
 ]
 
 INVENTORY = [
