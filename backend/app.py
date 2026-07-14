@@ -2,7 +2,6 @@ from flask import Flask
 from flask_cors import CORS
 from flask_migrate import Migrate
 from dotenv import load_dotenv
-from models.models import db
 import os
 
 load_dotenv()
@@ -19,6 +18,7 @@ def create_app():
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
     app.config["SECRET_KEY"] = os.getenv("SECRET_KEY", "dev-secret-key")
 
+    from models.models import db
     db.init_app(app)
     migrate.init_app(app, db)
 
