@@ -1,7 +1,8 @@
-from app import db
+from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
-from sqlalchemy import Enum
 import enum
+
+db = SQLAlchemy()
 
 class AppointmentStatus(enum.Enum):
     PENDING = "pending"
@@ -11,7 +12,6 @@ class AppointmentStatus(enum.Enum):
 
 class Client(db.Model):
     __tablename__ = "clients"
-
     id = db.Column(db.Integer, primary_key=True)
     first_name = db.Column(db.String(80), nullable=False)
     last_name = db.Column(db.String(80), nullable=False)
@@ -35,7 +35,6 @@ class Client(db.Model):
 
 class Service(db.Model):
     __tablename__ = "services"
-
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(120), nullable=False)
     description = db.Column(db.Text)
@@ -55,7 +54,6 @@ class Service(db.Model):
 
 class Appointment(db.Model):
     __tablename__ = "appointments"
-
     id = db.Column(db.Integer, primary_key=True)
     client_id = db.Column(db.Integer, db.ForeignKey("clients.id"), nullable=False)
     service_id = db.Column(db.Integer, db.ForeignKey("services.id"), nullable=False)
@@ -63,7 +61,6 @@ class Appointment(db.Model):
     status = db.Column(db.Enum(AppointmentStatus), default=AppointmentStatus.PENDING)
     notes = db.Column(db.Text)
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
-
     client = db.relationship("Client", back_populates="appointments")
     service = db.relationship("Service")
 
@@ -80,7 +77,6 @@ class Appointment(db.Model):
 
 class InventoryItem(db.Model):
     __tablename__ = "inventory"
-
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(120), nullable=False)
     category = db.Column(db.String(80))
@@ -105,7 +101,6 @@ class InventoryItem(db.Model):
 
 class Transaction(db.Model):
     __tablename__ = "transactions"
-
     id = db.Column(db.Integer, primary_key=True)
     appointment_id = db.Column(db.Integer, db.ForeignKey("appointments.id"), nullable=True)
     type = db.Column(db.String(20))
