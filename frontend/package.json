@@ -1,0 +1,29 @@
+{
+  "name": "studio-iridescent-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-router-dom": "^6.24.0",
+    "axios": "^1.7.2",
+    "react-query": "^3.39.3",
+    "date-fns": "^3.6.0",
+    "react-datepicker": "^7.2.0",
+    "react-hot-toast": "^2.4.1",
+    "lucide-react": "^0.395.0",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version"]
+  }
+}
