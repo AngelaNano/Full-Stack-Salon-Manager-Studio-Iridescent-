@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from app import db
+from models.models import db
 from models.models import Appointment, Client, Service, AppointmentStatus
 from datetime import datetime
 from middleware.auth import require_auth

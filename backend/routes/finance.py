@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from app import db
+from models.models import db
 from models.models import Transaction
 from sqlalchemy import func
 from datetime import datetime, timedelta
