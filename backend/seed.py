@@ -16,14 +16,14 @@ SERVICES = [
 ]
 
 CLIENTS = [
-    {"first_name": "Naomi", "last_name": "Chen", "email": "", "phone": ""},
-    {"first_name": "Sofia", "last_name": "Reyes", "email": "", "phone": ""},
-    {"first_name": "Aaliyah", "last_name": "Washington", "email": "", "phone": ""},
-    {"first_name": "Priya", "last_name": "Sharma", "email": "", "phone": ""},
-    {"first_name": "Zoe", "last_name": "Kim", "email": "", "phone": ""},
-    {"first_name": "Isabelle", "last_name": "Martin", "email": "", "phone": ""},
-    {"first_name": "Maya", "last_name": "Thompson", "email": "", "phone": ""},
-    {"first_name": "Aria", "last_name": "Patel", "email": "", "phone": ""},
+    {"first_name": "Naomi", "last_name": "Chen", "email": "client1@studio.internal", "phone": ""},
+    {"first_name": "Sofia", "last_name": "Reyes", "email": "client2@studio.internal", "phone": ""},
+    {"first_name": "Aaliyah", "last_name": "Washington", "email": "client3@studio.internal", "phone": ""},
+    {"first_name": "Priya", "last_name": "Sharma", "email": "client4@studio.internal", "phone": ""},
+    {"first_name": "Zoe", "last_name": "Kim", "email": "client5@studio.internal", "phone": ""},
+    {"first_name": "Isabelle", "last_name": "Martin", "email": "client6@studio.internal", "phone": ""},
+    {"first_name": "Maya", "last_name": "Thompson", "email": "client7@studio.internal", "phone": ""},
+    {"first_name": "Aria", "last_name": "Patel", "email": "client8@studio.internal", "phone": ""},
 ]
 
 INVENTORY = [
