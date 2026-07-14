@@ -77,8 +77,6 @@ export default function Clients() {
               <thead>
                 <tr>
                   <th>Name</th>
-                  <th>Email</th>
-                  <th>Phone</th>
                   <th>Appointments</th>
                   <th>Joined</th>
                   <th>Actions</th>
@@ -88,8 +86,6 @@ export default function Clients() {
                 {clients?.map((c) => (
                   <tr key={c.id}>
                     <td>{c.first_name} {c.last_name}</td>
-                    <td style={{ color: "var(--text-mid)" }}>{c.email}</td>
-                    <td style={{ color: "var(--text-mid)" }}>{c.phone || "—"}</td>
                     <td>
                       <span className="badge badge--confirmed">{c.appointment_count}</span>
                     </td>
