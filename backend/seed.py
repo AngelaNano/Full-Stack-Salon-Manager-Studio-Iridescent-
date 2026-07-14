@@ -1,4 +1,5 @@
-from app import create_app, db
+from app import create_app
+from models.models import db
 from models.models import Client, Service, Appointment, InventoryItem, Transaction, AppointmentStatus
 from datetime import datetime, timedelta
 import random

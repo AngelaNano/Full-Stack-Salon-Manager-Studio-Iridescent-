@@ -51,3 +51,10 @@ A full-stack booking and client management system built for **Studio Iridescent 
 ---
 
 ## Project Structure
+---
+
+## Live Demo
+
+🔗 **Live UI:** https://studio-iridescent.vercel.app  
+⚙️ **API:** https://full-stack-salon-manager-studio.onrender.com/api/health  
+📁 **GitHub:** https://github.com/AngelaNano/studio-iridescent
