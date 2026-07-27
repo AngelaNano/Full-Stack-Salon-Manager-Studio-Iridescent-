@@ -59,41 +59,6 @@ A full-stack booking and client management system built for **Studio Iridescent 
 
 ---
 
-## Project Structure
-studio-iridescent/
-├── backend/
-│   ├── app.py
-│   ├── seed.py
-│   ├── requirements.txt
-│   ├── models/models.py
-│   ├── routes/
-│   │   ├── appointments.py
-│   │   ├── clients.py
-│   │   ├── inventory.py
-│   │   ├── notifications.py
-│   │   └── finance.py
-│   └── middleware/auth.py
-├── frontend/
-│   ├── package.json
-│   └── src/
-│       ├── App.js
-│       ├── index.css
-│       ├── api/client.js
-│       └── pages/
-│           ├── Dashboard.js
-│           ├── Appointments.js
-│           ├── Clients.js
-│           ├── Inventory.js
-│           └── Finance.js
-└── finance/
-├── requirements.txt
-└── scripts/
-├── revenue_forecast.py
-├── expense_tracker.py
-└── quickbooks_sync.py
-
----
-
 ## Getting Started
 
 ### 1. Clone the Repo
