@@ -16,14 +16,12 @@ A full-stack booking and client management system built for **Studio Iridescent 
 
 ## Tech Stack
 
-| Layer | Technology |
-|---|---|
-| **Frontend** | React 18, React Router, React Query, Recharts |
-| **Backend** | Python 3.11, Flask, SQLAlchemy, PostgreSQL |
-| **Finance** | Python scripts — scikit-learn forecasting, QuickBooks API |
-| **Deployment** | Vercel (frontend) + Render (backend + PostgreSQL) |
-| **Email** | SMTP (Gmail / any provider) |
-| **Auth** | API key middleware |
+- | **Frontend** | React 18, React Router, React Query, Recharts |
+- | **Backend** | Python 3.11, Flask, SQLAlchemy, PostgreSQL |
+- | **Finance** | Python scripts — scikit-learn forecasting, QuickBooks API |
+- | **Deployment** | Vercel (frontend) + Render (backend + PostgreSQL) |
+- | **Email** | SMTP (Gmail / any provider) |
+- | **Auth** | API key middleware |
 
 ---
 
